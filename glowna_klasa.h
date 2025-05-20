@@ -11,6 +11,7 @@
 #include <string>
 #include <SFML/Graphics.hpp>
 #include <vector>
+#include "klasa_zmianowa.h"
 
 using namespace std;
 
@@ -262,7 +263,7 @@ void showImage()
          }
   }
 
-// ==== STRUKTURA PRZYCISKU ====
+// === STRUKTURA PRZYCISKU ===
 
 struct CapsuleButton
 {
@@ -347,7 +348,7 @@ struct CapsuleButton
 };
 
 
-// ==== DRUGIE OKNO ====
+// === DRUGIE OKNO ===
 void runSecondWindow() {
     const int windowWidth = 1536, windowHeight = 1024;
     sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "World of Ants - Gra");
@@ -458,7 +459,7 @@ void runSecondWindow() {
 
 
 
-    // ==== GŁÓWNA FUNKCJA APLIKACJI ====
+    // === GŁÓWNA FUNKCJA APLIKACJI ===
 
     void startApp()
     {
