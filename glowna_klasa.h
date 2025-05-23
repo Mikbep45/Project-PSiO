@@ -12,7 +12,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include "klasa_zmianowa.h"
-
+#include "klasa_gra.h"
 using namespace std;
 
 enum Wybor {lista_mrowek = '1', dodawanie_gatunku = '2', usuwanie_gatunku = '3', informacje = '4', gra = '5', quiz = '6', symulacja = '7', zdjecia = '8', wyjscie = '0'};
